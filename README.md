@@ -88,62 +88,62 @@ var textos = generador.GenerateTexts(count: 5, maxLength: 100).ToList();
 ## Persistencia del Modelo
 
 ```csharp
-// Save trained model
-await generator.SaveToFileAsync("model.json");
+// Guardar modelo entrenado
+await generador.SaveToFileAsync("modelo.json");
 
-// Load trained model
-await generator.LoadFromFileAsync("model.json");
+// Cargar modelo entrenado
+await generador.LoadFromFileAsync("modelo.json");
 ```
 
-## Statistics
+## Estadísticas
 
 ```csharp
-// Get chain statistics
-var stats = generator.GetStatistics();
-Console.WriteLine($"Total States: {stats.StateCount}");
-Console.WriteLine($"Starting States: {stats.StartingStateCount}");
-Console.WriteLine($"Total Transitions: {stats.TotalTransitions}");
-Console.WriteLine($"Average Transitions Per State: {stats.AverageTransitionsPerState}");
+// Obtener estadísticas de la cadena
+var estadisticas = generador.GetStatistics();
+Console.WriteLine($"Estados Totales: {estadisticas.StateCount}");
+Console.WriteLine($"Estados Iniciales: {estadisticas.StartingStateCount}");
+Console.WriteLine($"Transiciones Totales: {estadisticas.TotalTransitions}");
+Console.WriteLine($"Promedio de Transiciones por Estado: {estadisticas.AverageTransitionsPerState}");
 ```
 
-## Advanced Analysis
+## Análisis Avanzado
 
 ```csharp
-// Get next token probabilities for a specific state
-var stateTokens = new[] { "the", "quick" };
-var probabilities = generator.GetNextTokenProbabilities(stateTokens);
-foreach (var (token, probability) in probabilities)
+// Obtener probabilidades de tokens siguientes para un estado específico
+var tokensEstado = new[] { "el", "rápido" };
+var probabilidades = generador.GetNextTokenProbabilities(tokensEstado);
+foreach (var (token, probabilidad) in probabilidades)
 {
-    Console.WriteLine($"Token: {token}, Probability: {probability}");
+    Console.WriteLine($"Token: {token}, Probabilidad: {probabilidad}");
 }
 ```
 
-## Considerations
+## Consideraciones
 
-1. **Order Selection**: 
-   - Higher orders (3+) produce more coherent but less creative text
-   - Lower orders (1-2) produce more varied but potentially less coherent text
-   - Order 2 is a good default for most use cases
+1. **Selección del Orden**: 
+   - Órdenes más altos (3+) producen texto más coherente pero menos creativo
+   - Órdenes más bajos (1-2) producen texto más variado pero potencialmente menos coherente
+   - El orden 2 es una buena opción por defecto para la mayoría de los casos
 
-2. **Training Data**:
-   - Provide enough training data (at least order + 1 tokens)
-   - More training data generally leads to better results
-   - Quality of output depends heavily on input quality
+2. **Datos de Entrenamiento**:
+   - Proporciona suficientes datos de entrenamiento (al menos orden + 1 tokens)
+   - Más datos de entrenamiento generalmente llevan a mejores resultados
+   - La calidad del resultado depende en gran medida de la calidad de entrada
 
-3. **Performance**:
-   - Memory usage increases with order and training data size
-   - Generation time is generally fast and constant
-   - Consider saving trained models for reuse
+3. **Rendimiento**:
+   - El uso de memoria aumenta con el orden y el tamaño de los datos de entrenamiento
+   - El tiempo de generación es generalmente rápido y constante
+   - Considera guardar los modelos entrenados para reutilizarlos
 
-4. **Text Generation**:
-   - Use `startWith` parameter to control generation context
-   - Adjust `maxLength` based on your needs
-   - Generated text will always end with a complete token
+4. **Generación de Texto**:
+   - Usa el parámetro `startWith` para controlar el contexto de generación
+   - Ajusta `maxLength` según tus necesidades
+   - El texto generado siempre terminará con un token completo
 
-5. **Model Size**:
-   - Models can be serialized to JSON for persistence
-   - Larger training sets create larger models
-   - Consider clearing the chain (`Clear()`) if memory is a concern
+5. **Tamaño del Modelo**:
+   - Los modelos pueden ser serializados a JSON para persistencia
+   - Conjuntos de entrenamiento más grandes crean modelos más grandes
+   - Considera limpiar la cadena (`Clear()`) si la memoria es una preocupación
 
 ## Manejo de Errores
 

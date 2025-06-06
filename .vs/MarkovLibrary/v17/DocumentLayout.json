@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1217C95C-8E27-4F18-BE8F-6F8019FFEA4B}|MarkovLibrary\\MarkovLibrary.csproj|c:\\users\\yoeri\\documents\\proyectos\\c#\\bots\\markovlibrary\\markovlibrary\\markovlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1217C95C-8E27-4F18-BE8F-6F8019FFEA4B}|MarkovLibrary\\MarkovLibrary.csproj|solutionrelative:markovlibrary\\markovlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1217C95C-8E27-4F18-BE8F-6F8019FFEA4B}|MarkovLibrary\\MarkovLibrary.csproj|c:\\users\\yoeri\\documents\\proyectos\\c#\\bots\\markovlibrary\\markovlibrary\\markovtextgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1217C95C-8E27-4F18-BE8F-6F8019FFEA4B}|MarkovLibrary\\MarkovLibrary.csproj|solutionrelative:markovlibrary\\markovtextgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MarkovLibrary",
+              "DocumentMoniker": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\MarkovLibrary.csproj",
+              "RelativeDocumentMoniker": "MarkovLibrary\\MarkovLibrary.csproj",
+              "ToolTip": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\MarkovLibrary.csproj",
+              "RelativeToolTip": "MarkovLibrary\\MarkovLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T04:03:00.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StateTransitions.cs",
               "DocumentMoniker": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\StateTransitions.cs",
               "RelativeDocumentMoniker": "MarkovLibrary\\StateTransitions.cs",
@@ -38,12 +54,11 @@
               "RelativeToolTip": "MarkovLibrary\\StateTransitions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:23:55.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T03:23:55.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MarkovTextGenerator.cs",
               "DocumentMoniker": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\MarkovTextGenerator.cs",
               "RelativeDocumentMoniker": "MarkovLibrary\\MarkovTextGenerator.cs",
@@ -56,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MarkovState.cs",
               "DocumentMoniker": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\MarkovState.cs",
               "RelativeDocumentMoniker": "MarkovLibrary\\MarkovState.cs",
@@ -64,12 +79,11 @@
               "RelativeToolTip": "MarkovLibrary\\MarkovState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:23:44.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T03:23:44.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MarkovExtensions.cs",
               "DocumentMoniker": "C:\\Users\\yoeri\\Documents\\proyectos\\C#\\bots\\MarkovLibrary\\MarkovLibrary\\MarkovExtensions.cs",
               "RelativeDocumentMoniker": "MarkovLibrary\\MarkovExtensions.cs",
@@ -77,8 +91,7 @@
               "RelativeToolTip": "MarkovLibrary\\MarkovExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:23:22.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T03:23:22.248Z"
             }
           ]
         }

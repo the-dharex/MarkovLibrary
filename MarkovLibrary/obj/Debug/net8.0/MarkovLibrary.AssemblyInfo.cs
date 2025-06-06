@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Librería de cadenas de Markov para .NET")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feb5e83f802fca825d29f505a2b14910fa9e24f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e04ac1f3d31442d513324f72754a80fc3bf311")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarkovLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarkovLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

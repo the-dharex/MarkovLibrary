@@ -16,7 +16,13 @@ Una biblioteca C# flexible y eficiente para generar texto utilizando Cadenas de 
 
 ## Instalación
 
-Agrega el proyecto MarkovLibrary a tu solución y referéncialo en tu proyecto.
+Puedes instalar MarkovLibrary a través de NuGet:
+
+```bash
+dotnet add package MarkovLibrary --version 1.0.1
+```
+
+También puedes instalar el paquete usando el Administrador de Paquetes NuGet en Visual Studio o agregando la referencia directamente en tu archivo .csproj.
 
 ## Inicio Rápido
 

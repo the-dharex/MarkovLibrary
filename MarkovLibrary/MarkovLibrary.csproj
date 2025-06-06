@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>thedharex</Authors>
+    <Description>Librería de cadenas de Markov para .NET</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/the-dharex/MarkovLibrary.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/the-dharex/MarkovLibrary.git</PackageProjectUrl>
+    <PackageTags>markov;probabilistic;ai;text;nlp;dotnet</PackageTags>
   </PropertyGroup>
 
 </Project>
